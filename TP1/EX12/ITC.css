@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --letter-height:30vw;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Container{
+    width: 70%;
+    border: .3vw solid black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    aspect-ratio: 2/1;
+}
+.letter-I{
+    background-color: #db8181;
+    width:5vw;
+    height:var(--letter-height) ;
+}  
+.letter-T{
+    width: 22vw;
+    height:var(--letter-height) ;
+    display: flex;
+    flex-direction: column;
+    
+}
+.t1{
+    background-color: #84cb79;
+    height: 20%;
+    width: 100%;
+}
+.t2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.vt{
+    width: 25%;
+    height: 100%;
+    background-color: #84cb79;
+}
+
+.letter-C{
+    width: 14vw;
+    height:var(--letter-height) ;
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+.c1{
+    background-color: #fdc841;
+    width: 100%;
+    height: 20%;
+}
+.c2{
+    
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+}
+.vc{
+    
+    background-color: #fdc841;
+    width: 35%;
+    height: 100%;
+}

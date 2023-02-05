@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* width:100vw;
+    /* height:100vh; */ 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.container{
+    width:50%;
+    border: 2px solid black;
+}
+.header{
+    background-color: rgb(212, 212, 217);
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+.content{
+    padding: 0.5rem;
+    height: 60vh;
+    overflow: auto;
+}

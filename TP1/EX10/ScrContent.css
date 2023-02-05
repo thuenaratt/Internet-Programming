@@ -1,0 +1,46 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Container{
+    width: 50vw;
+    border: 2px solid black; 
+}
+.header{
+    font-size: 2rem;
+    background-color:#db8181 ;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin: .7rem 0;
+    margin-left: 1rem;
+    margin-right: .5rem;
+}
+.Box-Container{
+    padding: .4rem;
+    margin: .5rem 0;
+    margin-left: 1.7rem;
+    height: 60vh;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    
+}
+.Box-Container::-webkit-scrollbar{
+    background: #f0f0f0;
+    width: 8px;
+}
+
+.Box-Container::-webkit-scrollbar-thumb {
+    background: #696969; 
+    border-radius: 999px;
+}
+
+.box{
+    background-color: #84cb79;
+    aspect-ratio: 1/1;
+}

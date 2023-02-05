@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+:root {
+  --font:"Nunito", sans-serif ;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font);
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+body .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body .container > div {
+  width: 100%;
+}
+body .container #header {
+  text-align: center;
+}
+body .container #header h1 {
+  font-size: 2rem;
+}
+body .container #header p {
+  font-size: 1.8rem;
+}
+body .container .wrapper {
+  padding: 7rem;
+  display: flex;
+  /*position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: (-50%, -50%);*/
+}
+@media only screen and (max-width: 1000px) {
+  body .container .wrapper {
+    flex-direction: column;
+  }
+}
+body .container .wrapper > div {
+  width: 100%;
+  max-height: 50vh;
+}
+body .container .wrapper > div img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: 100%;
+     object-fit: 100%;
+}
+body .container .wrapper > div .img {
+  border-radius: 0.7rem;
+  overflow: hidden;
+  /*position: absolute;
+  left: 50%;
+  top:50%;*/
+}
+body .container .wrapper > div .btn-wrapper {
+  width: 100%;
+  display: flex;
+}
+body .container .wrapper > div .btn-wrapper button {
+  width: 100%;
+  padding: 0.5rem 0.7rem;
+  border: none;
+  outline: none;
+}
+body .container .wrapper > div .conten-wrap {
+  background-color: white;
+}
+body .container .wrapper > div .conten-wrap .btn-wrapper {
+  width: 100%;
+  display: flex;
+}
+body .container .wrapper > div .conten-wrap .btn-wrapper button {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: aliceblue;
+  font-size: 1.5rem;
+  padding: 0.5rem 0.7rem;
+  cursor: pointer;
+}
+body .container .wrapper > div .conten-wrap .btn-wrapper button.active {
+  background-color: white;
+}
+body .container .wrapper > div .conten-wrap .btn-wrapper button:hover {
+  background-color: antiquewhite;
+}
+body .container .wrapper > div .text-wrapper {
+  display: flex;
+  overflow: hidden;
+}
+body .container .wrapper > div .text-wrapper div {
+  min-width: 100%;
+  padding: 0.7rem;
+  transform: 250ms;
+  transform: translate(var(--transform-x-percen));
+}
+body .container .wrapper > div .text-wrapper_test {
+  font-size: 90;
+}/*# sourceMappingURL=style.css.map */

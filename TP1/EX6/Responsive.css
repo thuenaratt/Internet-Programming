@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding:0;
+    /* box-sizing: border-box; */
+}
+body{
+    background-color: rgb(92, 95, 98);
+    display: flex;
+    
+}
+.wrapper{
+    
+    /* transform: translate(-50%,-50%); */
+    background-color: rgb(143, 146, 148);
+    width:100%;
+    height: 100vh;
+    /* position: relative; */
+}
+.content .span{
+    background-color: aliceblue;
+    width
+}

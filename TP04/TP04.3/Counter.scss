@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font-main:'Itim', cursive;
+}
+body{
+    width: 100vw;
+    background-color: #f1f5f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container{
+        display: flex;
+        justify-content: center;
+        border: .5rem solid black;
+        align-items: center;
+        flex-direction: column;
+        width: 60%;
+        @media only screen and (max-width: 600px){
+            width: 90%;
+        }
+        min-height: 100vh;
+        background-color: transparent;
+
+        header{
+            h1{
+                font-family: var(--font-main);
+                font-size: 4rem;
+            }
+        }
+        & > h1{
+            font-size: 3.5rem;
+            color: rgb(13, 144, 13);
+        }
+        .btn_wrapper{
+            button+button{
+                margin-left: .7rem;
+            }
+            button{
+                background-color: transparent;
+                border-radius: 4px;
+                padding: .3rem .7rem;
+                text-transform: uppercase;
+                cursor: pointer;
+                transition: 250ms;
+                font-weight: bold;
+                font-size: 1.2rem;
+                @media only screen and (max-width: 600px){
+                    font-size: .9rem;
+                }
+                &.Increase{
+                    background-color: #131313;
+                    color: white;
+                    &:hover{
+                        background-color: transparent;
+                        color: black;
+                    }
+                }
+                &.Reset{
+                    color: red;
+                    &:hover{
+                        background-color: red;
+                        color: white;
+                    }
+                }
+                &:hover{
+                    background-color: #1b1b1b;
+                    color: white;
+                }
+            }
+        }
+    }
+}
