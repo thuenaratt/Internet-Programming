@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .contain-wrapper {
+  width: 50%;
+  padding: 0 1rem;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  box-shadow: 0 0 0 4px black;
+  flex-direction: column;
+  align-items: center;
+}
+body .contain-wrapper .emoji {
+  font-size: 50px;
+  margin-top: 20px;
+}
+body .contain-wrapper h1 span {
+  color: #0761e8;
+}
+body .contain-wrapper form {
+  width: 80%;
+  display: flex;
+  gap: 0.7rem;
+}
+body .contain-wrapper form input[type=text] {
+  width: 100%;
+  border: 1.3px solid rgb(122, 122, 122);
+  padding: 0.4rem 0.8rem;
+  outline: none;
+  border-radius: 0.3rem;
+}
+body .contain-wrapper form input[type=submit] {
+  width: auto;
+  background-color: #2476f0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0 0.7rem;
+  color: white;
+  border-radius: 0.2rem;
+}
+body .contain-wrapper .container {
+  width: 80%;
+  border-radius: 0.6rem;
+  display: flex;
+  gap: 0.2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .contain-wrapper .container .output {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f4f4f4;
+  font-family: "Oswald", sans-serif;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.6rem;
+  text-transform: uppercase;
+}
+body .contain-wrapper .container .output.country {
+  color: #111111;
+}
+body .contain-wrapper .container .output .percentage {
+  color: hsl(22, 100%, 50%);
+}/*# sourceMappingURL=style.css.map */
